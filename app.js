@@ -10,7 +10,7 @@ function agregarAmigo(){
    
    //2. Validar la entrada
    if(!nombreamigo){
-      alert ("Por favor, inserte un nombre");
+      alert ("Por favor, inserte un nombre.");
       return;
    }
    //3. Actualizar el array de amigos
@@ -42,7 +42,7 @@ function MostrarAmigos(){
 function sortearAmigo(){
    //1. Validar que haya amigos disponibles.
    if(amigo.length === 0){// === estrictamente a 0
-      alert("No hay amigos para sortear");
+      alert("No hay amigos para sortear.");
       return;
    } 
    //2. Generar un índice aleatorio.
