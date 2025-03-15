@@ -29,11 +29,30 @@ function MostrarAmigos(){
    //2. Limpiar la lista existente
    listaAmigos.innerHTML = "";
 
-   //Iterar sobre el arreglo
+   //3. Iterar sobre el arreglo
    for (let i=0; i < amigo.length; i++){
       let item = document.createElement("li");
-      //Agregar elementos a la lista
+      //4. Agregar elementos a la lista
       item.textContent = amigo[i];
       listaAmigos.appendChild(item);
    }
+}
+
+//Función para sortear los amigos
+function sortearAmigo(){
+   //1. Validar que haya amigos disponibles.
+   if(amigo.length === 0){// === estrictamente a 0
+      alert("No hay amigos para sortear");
+      return;
+   } 
+   //2. Generar un índice aleatorio.
+   let amigoSorteado = amigo[Math.floor(Math.random()* amigo.length)];
+   //3. Obtener el nombre sorteado.
+   let resultado = document.getElementById("resultado");
+   //4. Mostrar el resultado.
+   resultado.innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
+   
+   //limpiar lista
+   let limpiarLista = document.getElementById("listaAmigos");
+   limpiarLista.innerHTML = "";
 }
