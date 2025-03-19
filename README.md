@@ -1,13 +1,12 @@
 <h1>🎁 Desafío: Amigo Secreto - ONE Oracle Next Education</h1>
 
 <h2>📌 Descripción</h2>
-<p>Este desafío consiste en desarrollar una aplicación que automatice el sorteo del <strong>Amigo Secreto</strong>, permitiendo que un grupo de personas participe y reciba de forma aleatoria el nombre de su amigo secreto sin repeticiones.</p>
+<p>Este desafío consiste en desarrollar una aplicación que automatice el sorteo del <strong>Amigo Secreto</strong>, permitiendo ingresar nombres de las personas que se les realizara el sorteo aleatoriamente.</p>
 
 <h2>🚀 Requisitos</h2>
 <ul>
   <li>La aplicación debe permitir ingresar una lista de participantes.</li>
-  <li>Cada participante debe recibir de forma aleatoria el nombre de su amigo secreto.</li>
-  <li>No se puede asignar a una persona como su propio amigo secreto.</li>
+  <li>Si no se ingresa ningun nombre y damos click en el boton añadir, nos debe salir un mensaje diciendo, no se ingreso mingun nombre </li>
   <li>Debe ser una aplicación funcional en la web, consola o interfaz gráfica (según preferencia).</li>
 </ul>
 
@@ -42,13 +41,9 @@
 </ol>
 <pre>
 https://github.com/Jenny501ss/challenge-amigo-secreto_esp-main.git
-cd amigo-secreto  
-</pre>
-<ol start="2">
-  <li>Instalar dependencias (si aplica).</li>
-  <li>Ejecutar la aplicación según la tecnología usada.</li>
-</ol>
-
+  cd challenge-amigo-secreto_esp-main
+</pre
+  
 <h2>🤝 Contribuciones</h2>
 <p>Si deseas mejorar este proyecto, ¡siéntete libre de hacer un <strong>fork</strong> y enviar tus <strong>pull requests</strong>!</p>
 
